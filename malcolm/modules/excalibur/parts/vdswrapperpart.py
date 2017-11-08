@@ -2,7 +2,7 @@ import os
 
 import numpy as np
 import h5py as h5
-from vdsgen import SubFrameVDSGenerator
+from vdsgen.subframevdsgenerator import SubFrameVDSGenerator
 
 from malcolm.modules.scanning.controllers import RunnableController
 from malcolm.core import method_takes, REQUIRED, Part
